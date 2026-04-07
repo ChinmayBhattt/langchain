@@ -42,6 +42,11 @@ LangChain provides a standard message type that works across all model providers
 ### Text Prompts
 Text prompts are strings - ideal for straightforward generation tasks where you don't need to retain conversation history.
 
+Use text prompts when:
+- You have a single, standalone request
+- You don't need conversation history
+- You want minimal code complexity
+
 ### Message Prompts
 >Alternatively, you can pass in a list of messages to the model by providing a list of message objects.
 Message types
