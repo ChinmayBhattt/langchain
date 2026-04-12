@@ -66,3 +66,12 @@ Message types
 
 ### Tool Message
 >For models that support tool calling, Al messages can contain tool calls. Tool messages are used to pass the results of a single tool execution back to the model.
+
+### Structured output
+>Models can be requested towprovide their response in a format matching a given schema. This is useful for ensuring the output can be easily parsed and used in subsequent processing. LangChain supports multiple schema types and methods for enforcing structured output.
+
+## Pydantic
+Pydantic models provide the richest feature set with field validation, descriptions, and nested structures.
+
+### TypedDict
+TypedDict provides a simpler alternative using Python's built-in typing, ideal when you don't need runtime validation.
