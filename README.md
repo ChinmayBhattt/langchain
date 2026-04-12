@@ -75,3 +75,6 @@ Pydantic models provide the richest feature set with field validation, descripti
 
 ### TypedDict
 TypedDict provides a simpler alternative using Python's built-in typing, ideal when you don't need runtime validation.
+
+### Data Classes
+A data class is a class typically containing mainly data, although there aren't really any restrictions. You create it using the @dataclass decorator
