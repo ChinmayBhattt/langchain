@@ -1,5 +1,5 @@
 # Generative AI & LangChain  
-
+ 
 This repository explores key concepts in modern AI development, specifically focusing on Generative AI, the LangChain framework, and intelligent Agents.
 
 ## Key Concepts
